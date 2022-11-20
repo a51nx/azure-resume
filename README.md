@@ -9,6 +9,7 @@
 - Not having SSH set up to have my local machine access my Git repo
 - VSCode Azure extension wasn't listing out my subs / resources (https://github.com/microsoft/vscode-azure-account/wiki/Troubleshooting#unable-to-list-subscriptions)
 - When creating service principle using az ad sp create-for-rbac... (https://github.com/Azure/azure-cli/blob/dev/doc/use_cli_with_git_bash.md#auto-translation-of-resource-ids)
+- upload to azure blob storage during build wasn't working as we needed to specify --overwrite true https://github.com/Azure/azure-cli/issues/21477
 
 ## Considerations
 - I shouldn't be pushing to master... but I'm lazy
