@@ -4,7 +4,6 @@ name: deploy_frontend
 on:
     push:
         branches: [ main ]
-        # Only push when we have any changes inside the frontend folder
         paths:
         - 'frontend'/**
 
