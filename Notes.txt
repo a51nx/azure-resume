@@ -19,6 +19,12 @@ One cool thing about CosmosDB is that is scales horizontally rather than vertica
 
 2. Creating Azure Function
 
+3. Deploying to Azure as a static website 
+    - domain from namecheap to point to our host in Azure 
 
-
-Where am i 33:09
+4. Building CI/CD
+    - be able to push changes to frontend and backend
+    - changes to frontend purge content and upload to azure blob storage
+    - changes to backend automatically deployed to Functions App
+    - create unit test to test azure function code
+    - create backend workflow - GitHub Actions is responsible for anything deploying anything in backend folder (inside .github folder)
