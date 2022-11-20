@@ -1,0 +1,24 @@
+Notes
+ 
+rg = azureresume-rg
+
+account name = azureresume-hugh
+
+1. Building the backend 
+    - create new resource group
+    - create an new account 
+    - Deploy new instance of CosmosDB 
+    - once resource has been deploy, configure the new cosmosDB database!
+    - https://www.youtube.com/watch?v=Jvgh64rvdXU&t=8s
+One cool thing about CosmosDB is that is scales horizontally rather than vertically meaning that instead of increasing the volume of data on one DB, it creates another DB. This allows for data to be served up faster as big data demands! Scaling out (horizontal) vs Scaling up (vertical)
+
+    - Create New Database > Create new container under that 
+    - partition key = used to distinguish every item inside the container.
+    - after creating the container (Counter), just set the id to 1 and the create "count": 0 
+
+
+2. Creating Azure Function
+
+
+
+Where am i 33:09
