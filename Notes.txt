@@ -4,7 +4,10 @@ rg = azureresume-rg
 
 account name = azureresume-hugh
 
-1. Building the backend 
+1. Front-end
+- 
+
+2. Building the backend 
     - create new resource group
     - create an new account 
     - Deploy new instance of CosmosDB 
@@ -28,3 +31,7 @@ One cool thing about CosmosDB is that is scales horizontally rather than vertica
     - changes to backend automatically deployed to Functions App
     - create unit test to test azure function code
     - create backend workflow - GitHub Actions is responsible for anything deploying anything in backend folder (inside .github folder)
+
+
+Backend CI/CD
+- create unit test for our code
